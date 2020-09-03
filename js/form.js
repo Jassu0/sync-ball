@@ -5,6 +5,11 @@ class Form {
         this.button = createButton("play");
         this.greeting = createElement('h3');
     }
+    hide() {
+        this.greeting.hide();
+        this.button.hide();
+        this.input.hide();
+    }
     display() {
         this.title.html("car racing game");
         this.title.position(130, 0);
